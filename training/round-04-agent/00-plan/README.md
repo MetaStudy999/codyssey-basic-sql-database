@@ -1,4 +1,69 @@
-# B6-1 — 공식 요구·목차·승인
+# B6-1 — 00단계, 데이터베이스를 쉽게 배우기
+
+> **교육 개요: PLAN_ONLY** · **공식 요구 분석: NOT_STARTED** · **신규 코드: NOT_STARTED / 승인 PENDING** · **검증: NOT_VERIFIED**
+
+**30초 요약:** 데이터베이스는 자료를 정리하고 다시 찾기 위한 도구입니다. 오늘은 **기본키(Primary Key)** 한 개념만 살펴봅니다.
+
+## 00단계의 4개 학습 영역
+
+| 경로 | 이동 |
+|---|---|
+| A. 처음 시작하기 | [시작](#b61-start) |
+| B. 기술 배우기 | [첫 개념](#b61-learn) |
+| C. 진행 확인하기 | [현황](#b61-status) |
+| D. 상세 참고자료 | [더 읽기](#b61-more) |
+
+<a name="b61-start"></a>
+
+## A. 처음 시작하기
+
+이번 단계에서는 관계형 데이터의 기본 원리를 배우기 위한 계획을 준비합니다. 공식 요구사항 분석은 01단계에서 시작합니다.
+
+**학습 시작:** 아래 첫 개념을 읽거나 [기술 개요](TECHNICAL-LEARNING-OUTLINE.md)를 확인하세요.
+
+<a name="b61-learn"></a>
+
+## B. 기술 배우기 — 오늘은 기본키 하나
+
+**기본키(Primary Key)**는 테이블에서 각 행을 구별하는 값 또는 값의 조합입니다. 학생마다 고유한 학번을 부여하는 것과 비슷합니다.
+
+```mermaid
+flowchart LR
+ A["학생 데이터"] --> B["고유 학번으로 구분"]
+ B --> C["원하는 학생 정보 조회"]
+```
+
+**질문:** 서로 다른 두 행에 같은 기본키 값을 사용할 수 있을까요?
+
+**답:** 기본키의 고유성 제약을 따르면 안 됩니다.
+
+이것은 **교육용 개념도**이며 구현된 신규 시스템의 설계·실행 결과가 아닙니다.
+
+<a name="b61-status"></a>
+
+## C. 진행 확인하기
+
+| 단계 | 상태 |
+|---|---|
+| 00 교육·계획 문서 | PLAN_ONLY |
+| 01 공식 평가 분석 | NOT_STARTED |
+| 03 실제 시스템 설계 | NOT_STARTED |
+| 04 신규 코드 | NOT_STARTED / 승인 PENDING |
+| 실제 테스트·학습자 평가 | NOT_VERIFIED |
+
+<a name="b61-more"></a>
+
+## D. 상세 참고자료
+
+[기술 개요](TECHNICAL-LEARNING-OUTLINE.md) · [학습체계](LEARNING-SYSTEM-PLAN.md) · [슬라이드 계획](SLIDE-PACKAGE-PLAN.md) · [01단계](../01-requirements/README.md) · [중앙 학습 표준](https://github.com/MetaStudy999/codyssey-basic/blob/main/standards/LEARNER-CENTERED-AI-LEARNING-STANDARD.md)
+
+**원칙:** 한 번에 한 개념씩 학습합니다. 기존 Round 자료와 개발 승인 상태는 보존합니다.
+
+---
+
+## 기존 계획·승인 기록
+
+**기존 제목:** B6-1 — 공식 요구·목차·승인
 
 Round 04 Agent 전용 공간입니다. 현재 PLAN_ONLY: 승인 전 신규 구현·실행 없음. 이전 Round 자료 보존.
 
